@@ -1,5 +1,5 @@
 // Experience Section Logo's
-import AivarientLogo from './assets/company_logo/Aivarient_logo.jpeg';
+import AivarientLogo from './assets/company_logo/Aivarient_Logo.jpeg';
 import MdeLogo from './assets/company_logo/Mde_logo.jpeg';
 
 // Education Section Logo's
