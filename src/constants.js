@@ -4,7 +4,7 @@ import MdeLogo from './assets/company_logo/Mde_logo.jpeg';
 
 // Education Section Logo's
 import aitLogo from './assets/education_logo/Ait_logo.png';
-import SLogo from './assets/education_logo/Science_logo.jpeg';
+import SLogo from './assets/education_logo/Science_logo.jpg';
 import gvtLogo from './assets/education_logo/Govt_logo.png';
 
 // Project Section Logo's
