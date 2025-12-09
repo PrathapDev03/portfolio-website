@@ -1,301 +1,232 @@
-// Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
-
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import AivarientLogo from './assets/company_logo/Aivarient_logo.jpeg';
+import MdeLogo from './assets/company_logo/Mde_logo.jpeg';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import aitLogo from './assets/education_logo/Ait_logo.png';
+import SLogo from './assets/education_logo/Science_logo.png';
+import gvtLogo from './assets/education_logo/Govt_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import heartLogo from './assets/work_logo/heart.png';
+import bookLogo from './assets/work_logo/book.png';
+import jobLogo from './assets/work_logo/job.png';
+import productLogo from './assets/work_logo/product.png';
+import sentiLogo from './assets/work_logo/sentiment.png';
+import solarLogo from './assets/work_logo/solor.png';
+import zeptoLogo from './assets/work_logo/zepto.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Data Science & Machine Learning',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Data Cleaning'},
+      { name: 'EDA'},
+      { name: 'Supervised Learning'},
+      { name: 'Model Evaluation'},
+      { name: 'React Unsupervised Learning'},
+      { name: 'Feature Engineering'},
+      { name: 'Data Preprocessing'},
+      { name: 'Deep Learning'},
+      { name: 'Regression & Classification'},
+      { name: 'Clustering'},
+      { name: 'Time Series Forecasting'},
+      { name: 'Optimization Techniques'},
+      { name: 'ANN, CNN, RNN'},
     ],
   },
   {
-    title: 'Backend',
+    title: 'Statistics & NLP',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Descriptive Statistics'},
+      { name: 'Text Cleaning' },
+      { name: 'Sentiment Analysis'},
+      { name: 'Inferential Statistics'},
+      { name: 'Hypothesis Testing' },
+      { name: 'Sampling Techniques' },
+      { name: 'Probability' },
+      { name: 'Confusion Matrix'},
+      { name: 'Kurtosis'},
+      { name: 'Empirical Rule'},
+      { name: 'Central Limit Theorem' },
     ],
   },
   {
-    title: 'Languages',
+    title: 'Databases & Tools',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Databases: MySQL, SQL' },
+      { name: 'Tools: Power BI, Advanced Excel, AWS' },
+      { name: 'SQL Concepts: DDL, DML, DCL, TCL' },
+      { name: 'Database Operations: Joins, Subqueries, Functions, Views, Stored Procedures' },
+      { name: 'Additional Skills: Operators, Regular Expressions, DAX Formulas' }
     ],
   },
   {
-    title: 'Tools',
+    title: 'Programming & Frameworks',
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'Python'},
+      { name: 'Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow'},
+      { name: 'R (Basic)'},
+      { name: 'HTML & CSS'},
+      { name: 'Programming Concepts: Functions, Classes, OOPs, Exception Handling, List/Dict Comprehensions' }
     ],
   },
+  {
+    title: 'Soft Skills',
+    skills: [
+      { name: 'Effective Communication'},
+      { name: 'Analytical Thinking'},
+      { name: 'Decision Making'},
+      { name: 'Teamwork & Collaboration'},
+      { name: 'Problem-Solving'}
+    ],
+  }
 ];
 
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: AivarientLogo,
+      role: "Data Science Intern",
+      company: "Aivarient Technologies Pvt Ltd",
+      date: "Sep 2024 - June 2025",
+      desc: "Using Python, Scikit-learn and TensorFlow, end-to-end machine learning models were developed and implemented to enable data-driven business decisions.Carried out thorough feature engineering, data preprocessing, and model validation to guarantee scalable and reliable ML solutions.Designed interactive dashboards using Power BI and Matplotlib, boosting clarity and communication of model insights for stakeholders.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "MySQL",
+        "Power BI",
+        "EDA",
+        "Feature Engineering",
+        "Deep Learning",
+        "NLP",
       ],
     },
     {
       id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      img: MdeLogo,
+      role: "Data Analytics Trainee",
+      company: " MedTour Easy",
+      date: "Mar 2025 - Apr 2025",
+      desc: "Python, Pandas, Excel and Matplotlib were used to clean, convert, and analyze healthcare datasets in order to produce insights that might be put to use. Produced analytical reports to aid with strategic planning and operational enhancements. Enhanced practical skills in analytics workflows, KPI reporting and dashboard building for business intelligence use cases. ",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
+        "R Programming",
+        "Advanced Excel",
+        "Data Visualization",
+        "Python",
         "HTML",
         "CSS",
         "SQL",
+        "Analytical Reporting",
+        "Data Cleaning",
+        "Data Analysis"
       ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
+    }
   ];
   
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
+      img: aitLogo,
+      school: "Dr Ambedkar Institute of Technology, Bangalore",
+      date: "Dec 2020 - July 2024",
       grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      desc: "I completed my Bachelor of Engineering in Electronics and Communication Engineering from Dr. Ambedkar Institute of Technology, Bengaluru. During my studies, I gained a strong foundation in core engineering concepts such as digital electronics, communication systems, microprocessors, embedded systems, and signal processing. I also worked on multiple technical projects and participated in workshops that helped strengthen my analytical, problem-solving, and practical engineering skills.",
+      degree: "Bacelor of Eleectronics and Communication Engineering",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: SLogo,
+      school: "Science Academy pu College, Davangere",
+      date: "Mar 2019 - Apr 2020",
+      grade: "85%",
+      desc: "I completed my Pre-University education from Science Academy PU College, Davanagere, where I built a strong foundation in core science subjects. Studying Physics, Chemistry, Mathematics, and Biology helped me develop analytical thinking, problem-solving skills, and logical reasoning. My time at Science Academy also exposed me to various academic activities and assignments that strengthened my interest in technology and shaped my path toward engineering and data-driven fields.",
+      degree: "Pre-University education - PCMB",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+      img: gvtLogo,
+      school: "Govt high school, Kallihall",
+      date: "Mar 2017 - Mar 2018",
+      grade: "74.24%",
+      desc: "I completed my Class 10 education from Govt High School, Kallihal, where I developed a strong academic foundation across core subjects. My schooling helped build essential skills such as discipline, problem-solving, and logical thinking, which supported my transition into higher secondary studies and shaped my academic growth.",
+      degree: "Class 10th Board - SSLC",
+    }
   ];
   
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Heart Attack Prediction Using ECG Images (Deep Learning – CNN)",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "This project focuses on predicting heart attack risk by analyzing ECG images using a Convolutional Neural Network (CNN). The model classifies ECG signals into four categories: Myocardial Infarction, Abnormal Heartbeat, History, and Normal. I performed image preprocessing (resizing, normalization), applied data augmentation, and optimized the CNN architecture using techniques like dropout and early stopping. The model achieved high accuracy and provides valuable support for early detection of cardiac issues, enabling faster medical decisions.",
+      image: heartLogo,
+      tags: ["Python", "Deep Learning", "CNN", "TensorFlow", "Keras", "Image Processing"],
+      github: "https://github.com/PrathapDev03/Heart_Attack_prediction/blob/main/CNN_HAP.ipynb"
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Book Recommendation System",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "This project involves building a Book Recommendation System that predicts which books users are most likely to enjoy based on their past interactions and the behavior of similar users. I implemented Collaborative Filtering using Python and Scikit-learn, performed data preprocessing, and constructed user–item matrices to compute similarity scores. The system generates personalized book suggestions and showcases how recommendation algorithms are used in real-world platforms like Amazon and Goodreads to enhance user experience.",
+      image: bookLogo,
+      tags: ["Python", "Machine Learning", "Collaborative Filtering", "Scikit-learn", "Data Analysis"],
+      github: "https://github.com/PrathapDev03/Book-Recommendation/blob/main/Book_Rec.ipynb"
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Naukri-Job-Market-Analysis",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+        "This project entails analyzing job market trends using data from Naukri.com. I performed data cleaning, exploratory data analysis (EDA), and visualizations using Python libraries like Pandas, Matplotlib, and Seaborn. The analysis provided insights into in-demand skills, salary distributions, and job location trends. This project demonstrates how data-driven insights can inform job seekers and recruiters about market dynamics and help in strategic decision-making.",
+      image: jobLogo,
+      tags: ["Python", "Data Analysis", "Web Scraping", "Pandas", "Matplotlib", "Seaborn"],
+      github: "https://github.com/PrathapDev03/-Naukri-Job-Market-Analysis/blob/main/Naukri%20%5BUpdated%5D.ipynb"
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Product_Recommendation",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
+        "This project focuses on building a Product Recommendation System that suggests products to users based on their browsing and purchase history. I utilized techniques like Content-Based Filtering and Collaborative Filtering using Python and Scikit-learn. The system analyzes user preferences and product features to generate personalized recommendations, enhancing the shopping experience. This project illustrates the application of recommendation algorithms in e-commerce platforms to drive user engagement and sales.",
+      image: productLogo,
+      tags: ["Python", "Machine Learning", "Recommendation Systems", "Scikit-learn", "Data Analysis"],
       github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Sentiment-Analysis",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "This project involves performing Sentiment Analysis on textual data to classify sentiments as positive, negative, or neutral. I employed Natural Language Processing (NLP) techniques using Python libraries such as NLTK and Scikit-learn. The workflow included data preprocessing (tokenization, stop-word removal), feature extraction (TF-IDF), and model training using algorithms like Logistic Regression and Naive Bayes. The sentiment analysis model can be applied to customer reviews, social media posts, and feedback to derive insights into public opinion and enhance decision-making processes.",
+      image: sentiLogo,
+      tags: ["Python", "NLP", "Sentiment Analysis", "Scikit-learn", "NLTK"],
+      github: "https://github.com/PrathapDev03/Sentiment-Analysis/blob/main/NLP_code.ipynb"
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Solar-Power-Generation",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "This project focuses on predicting solar power generation using machine learning techniques. I collected and preprocessed historical weather and solar radiation data to train regression models that forecast solar energy output. Various algorithms, including Linear Regression and Random Forest, were evaluated for accuracy. The model provides valuable insights for optimizing solar energy systems and improving efficiency in renewable energy management.",
+      image: solarLogo,
+      tags: ["Python", "Machine Learning", "Regression Analysis", "Scikit-learn", "Data Preprocessing"],
+      github: "https://github.com/PrathapDev03/Solar-Power-Generation-Data-Analysis-and-Machine-Learning-Prediction/blob/main/Solar_power_generation%20.ipynb"
     },
     {
       id: 6,
       title: "Coding Master",
       description:
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
+      image: zeptoLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
       github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Zepto_BI",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+        "Zepto Grocery Delivery - Power BI Dashboard 🚀 Project Overview This project presents an interactive and advanced Power BI dashboard created for Zepto, a 10-minute grocery delivery company. The dashboard visualizes sales performance, customer behavior, and category-wise trends using a clean, creative layout.",
       image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+      tags: ["Power BI", "Data Visualization", "DAX", "Dashboard Design"],
+      github: "https://github.com/PrathapDev03/Zepto_BI/blob/main/Zepto_BI.pbix"
     },
   ];  
