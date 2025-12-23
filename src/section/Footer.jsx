@@ -7,7 +7,7 @@ const socials = [
     Icon: FaLinkedin,
     label: "LinkdeIn",
     href:
-      "http://www.linkedin.com/in/prathap-bdhttps://www.linkedin.com/in/prathapbd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://linkedin.com/in/prathapbd",
   },
   {
     Icon: FaGithub,
